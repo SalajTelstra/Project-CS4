@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "main": "server.js",
     "scripts": {
-        "test": "jest --detectOpenHandles",
+        "test": "jest --detectOpenHandles --coverage",
         "start": "npx nodemon startServer.js"
     },
     "author": "",
